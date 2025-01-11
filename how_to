@@ -1,3 +1,16 @@
 usage:
 
 powershell.exe -File server_stat_aggregator.ps1 -ServerListFile servers.txt -OutputCsvFile stats.csv
+
+ChatGPT instruction:
+
+Hello, I need to collect some statistics for Windows servers and aggregate them. Can you please help me write a powershell script as follows:
+- given a list of server names, logs into each one with a common user/name password
+- collects the server's current RAM usage and maximum, current disk usage (all disk drives) and maximum, and current RAM usage and maximum
+- records the current date/time the stats are taken
+- repeats every 15 minutes, between the hours of 10am and 6pm
+- adds these values, including the name of the server to a list
+- at the end of each iteration, appends the list to a .CSV file
+- the name of the .CSV file is provided as a command line argument
+- the lists of servers are provided in a separate text file, line by line, with the name of that file provided as a command line argument
+- during execution, each major step and errors are logged to a log file. The log file will be named "log.log" and will save to the same directory as the executable.
