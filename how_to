@@ -1,0 +1,3 @@
+usage:
+
+powershell.exe -File server_stat_aggregator.ps1 -ServerListFile servers.txt -OutputCsvFile stats.csv
