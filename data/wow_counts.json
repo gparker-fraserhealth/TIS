@@ -1,0 +1,52 @@
+{
+	"datasource":"RCH ICU Network Issues Mgmt",
+	"date":"2025-03-13"
+},
+[{
+	"site": "ERH",
+	"wow_count": "84",
+	"tcw_count": "0",
+	"laptop_count": "50"
+},
+{
+	"site": "Eagle Ridge Manor",
+	"wow_count": "0",
+	"tcw_count": "0",
+	"laptop_count": "3"
+},
+{
+	"site": "Newport Village",
+	"wow_count": "3",
+	"tcw_count": "0",
+	"laptop_count": "0"
+},
+{
+	"site": "Fraser Canyon Hospital",
+	"wow_count": "15",
+	"tcw_count": "0",
+	"laptop_count": "2"
+},
+{
+	"site": "Misson Memorial Hospital",
+	"wow_count": "21",
+	"tcw_count": "0",
+	"laptop_count": "18"
+},
+{
+	"site": "Victoria Heights",
+	"wow_count": "6",
+	"tcw_count": "0",
+	"laptop_count": "1"
+},
+{
+	"site": "Tri-Cities Dialysis Unit",
+	"wow_count": "8",
+	"tcw_count": "0",
+	"laptop_count": "3"
+},
+{
+	"site": "Royal City Center",
+	"wow_count": "6",
+	"tcw_count": "8",
+	"laptop_count": "2"
+}]
